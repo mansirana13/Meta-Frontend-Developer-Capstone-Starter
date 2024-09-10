@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.css';
+import Nav from './components/Nav';  // Adjust the path based on the file structure
+import Main from './components/Main'; 
+import Menu from './components/Menu';
 
+import Footer from './components/Footer'; 
 function App() {
   return (
  
-    <div>
-      <h1> 
-        thank you rabb ji ganpati bappa morya </h1>
-    </div>
+   <> 
+   <Nav />
+   
+   <Main />
+   <Menu />
+   <Footer />
+   </>
   );
 }
 
